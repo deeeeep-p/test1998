@@ -102,6 +102,7 @@ function Dashboard({ bgcolor, componentColor, drawerWidth }) {
             "Diva, Maharashtra",
             "Mulund, Maharashtra",
             "Ambivali, Maharashtra",
+            "Mundra, Gujarat",
           ]}
         />
       </Box>
