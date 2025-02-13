@@ -46,7 +46,7 @@ export default function Login() {
 
     try {
       // Post request to login
-      const response = await axios.post("http://34.93.167.213:8080/api/login", {
+      const response = await axios.post("https://travello.tech/api/login", {
         username,
         password,
       });

@@ -20,7 +20,7 @@ function Dashboard({ bgcolor, componentColor, drawerWidth }) {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "http://34.93.167.213:8080/api/selectSite/getInfo/Monthly",
+          "https://travello.tech/api/selectSite/getInfo/Monthly",
           {
             headers: { Authorization: `Bearer ${token}` },
           }

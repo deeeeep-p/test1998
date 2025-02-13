@@ -152,7 +152,7 @@ const SitePage = () => {
       setIsLoading(true);
       try {
         const response = await axios.get(
-          `http://34.93.167.213:8080/api/selectSite/getSiteInfo/${siteName}/${dayjs()
+          `https://travello.tech/api/selectSite/getSiteInfo/${siteName}/${dayjs()
             .month(selectMonth.$M)
             .format("MMM")}`,
           {

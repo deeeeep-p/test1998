@@ -53,7 +53,7 @@ const UpdateSite = ({ drawerWidth, bgcolor, componentColor }) => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "http://34.93.167.213:8080/api/selectSite/AllSites",
+          "https://travello.tech/api/selectSite/AllSites",
           {
             headers: { Authorization: `Bearer ${token}` },
           }
@@ -140,7 +140,7 @@ const UpdateSite = ({ drawerWidth, bgcolor, componentColor }) => {
     try {
       setSubmitting(true);
       await axios.post(
-        "http://34.93.167.213:8080/api/selectSite/getInfo/test",
+        "https://travello.tech/api/selectSite/getInfo/test",
         formData,
         {
           headers: {
