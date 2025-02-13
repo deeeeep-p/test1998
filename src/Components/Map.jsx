@@ -13,6 +13,7 @@ const Map = ({
     "Diva,maharashtra",
     "Mulund,maharashtra",
     "Ambivali,maharashtra",
+    "Mundra,gujarat",
   ],
 }) => {
   const mapContainerRef = useRef();
