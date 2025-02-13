@@ -56,7 +56,7 @@ function Navbar1({ bgcolor, componentColor, background }) {
             sx={{
               // bgcolor: "black",
               // px: 2,
-              // bgcolor: "#060638",
+              bgcolor: "#060638",
               borderRadius: 1,
               // bgcolor: "white",
               // boxShadow: "0px 0px 92px -25px rgba(100,1000,1000,0.38)",
